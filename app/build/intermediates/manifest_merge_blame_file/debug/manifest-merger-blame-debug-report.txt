@@ -1,0 +1,198 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.example.acrigooo"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml
+11
+12    <uses-feature
+12-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:5:5-7:35
+13        android:name="android.hardware.camera"
+13-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:6:9-47
+14        android:required="true" />
+14-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:7:9-32
+15    <uses-feature android:name="android.hardware.camera.autofocus" />
+15-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:8:5-70
+15-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:8:19-67
+16
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:10:5-65
+17-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:10:22-62
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:11:5-81
+18-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:11:22-78
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:12:5-67
+19-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:12:22-64
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:10:5-65
+20-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:10:22-62
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:14:5-80
+21-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:14:22-77
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:11:5-81
+22-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:11:22-78
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f786619397369fc31e349708d52e24f0\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:10:5-79
+23-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f786619397369fc31e349708d52e24f0\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:10:22-76
+24
+25    <application
+25-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:17:5-47:19
+26        android:allowBackup="true"
+26-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:18:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.0.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\b4e3646e14e3d9fc1f9f8fab0d387fbe\core-1.0.1\AndroidManifest.xml:22:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:19:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:20:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:21:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:22:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:23:9-40
+35        <activity android:name="com.example.acrigooo.Scan" />
+35-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:24:9-51
+35-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:24:19-39
+36        <activity android:name="com.example.acrigooo.Main2Activity_kotlin" />
+36-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:25:9-58
+36-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:25:19-55
+37        <activity android:name="com.example.acrigooo.ImageActivity" />
+37-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:26:9-51
+37-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:26:19-48
+38        <activity android:name="com.example.acrigooo.MainActivity" />
+38-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:27:9-50
+38-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:27:19-47
+39        <activity android:name="com.example.acrigooo.plantedescription" />
+39-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:28:9-55
+39-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:28:19-52
+40        <activity android:name="com.example.acrigooo.plantconsulterActivity" />
+40-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:29:9-60
+40-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:29:19-57
+41        <activity android:name="com.example.acrigooo.Authentication" >
+41-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:30:9-36:20
+41-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:30:19-49
+42            <intent-filter>
+42-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:31:13-35:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:32:17-69
+43-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:32:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:34:17-77
+45-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:34:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:38:9-46:20
+50            android:name="androidx.core.content.FileProvider"
+50-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:39:13-62
+51            android:authorities="com.example.android.fileprovider"
+51-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:40:13-67
+52            android:exported="false"
+52-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:41:13-37
+53            android:grantUriPermissions="true" >
+53-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:42:13-47
+54            <meta-data
+54-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:43:13-45:54
+55                android:name="android.support.FILE_PROVIDER_PATHS"
+55-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:44:17-67
+56                android:resource="@xml/file_paths" />
+56-->C:\Users\Lenovo\AndroidStudioProjects\big\AcrigoOo\app\src\main\AndroidManifest.xml:45:17-51
+57        </provider>
+58
+59        <activity
+59-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\e241bfef009eb59e955b2541271aeff8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+60            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+60-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\e241bfef009eb59e955b2541271aeff8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+61            android:excludeFromRecents="true"
+61-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\e241bfef009eb59e955b2541271aeff8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+62            android:exported="true"
+62-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\e241bfef009eb59e955b2541271aeff8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+63            android:launchMode="singleTask"
+63-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\e241bfef009eb59e955b2541271aeff8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+64            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+64-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\e241bfef009eb59e955b2541271aeff8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+65            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+65-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\e241bfef009eb59e955b2541271aeff8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+66
+67        <service
+67-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\e241bfef009eb59e955b2541271aeff8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+68            android:name="com.google.firebase.components.ComponentDiscoveryService"
+68-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\e241bfef009eb59e955b2541271aeff8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+69            android:exported="false" >
+69-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\e241bfef009eb59e955b2541271aeff8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+70            <meta-data
+70-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\e241bfef009eb59e955b2541271aeff8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+71                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+71-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\e241bfef009eb59e955b2541271aeff8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\e241bfef009eb59e955b2541271aeff8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f786619397369fc31e349708d52e24f0\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:15:13-17:85
+74                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+74-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f786619397369fc31e349708d52e24f0\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:16:17-111
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\f786619397369fc31e349708d52e24f0\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:17:17-82
+76        </service>
+77
+78        <provider
+78-->[com.squareup.picasso:picasso:2.71828] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5f58ffbfaf747976b194406cfcce6891\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+79            android:name="com.squareup.picasso.PicassoProvider"
+79-->[com.squareup.picasso:picasso:2.71828] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5f58ffbfaf747976b194406cfcce6891\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+80            android:authorities="com.example.acrigooo.com.squareup.picasso"
+80-->[com.squareup.picasso:picasso:2.71828] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5f58ffbfaf747976b194406cfcce6891\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+81            android:exported="false" />
+81-->[com.squareup.picasso:picasso:2.71828] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\5f58ffbfaf747976b194406cfcce6891\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+82
+83        <activity
+83-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8359fe21478dd81713e7a4a84a25c7c3\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+84            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+84-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8359fe21478dd81713e7a4a84a25c7c3\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+85            android:exported="false"
+85-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8359fe21478dd81713e7a4a84a25c7c3\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+86-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8359fe21478dd81713e7a4a84a25c7c3\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+87
+88        <provider
+88-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\de8a406716a798437b04686e5adfaaf0\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+89            android:name="com.google.firebase.provider.FirebaseInitProvider"
+89-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\de8a406716a798437b04686e5adfaaf0\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+90            android:authorities="com.example.acrigooo.firebaseinitprovider"
+90-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\de8a406716a798437b04686e5adfaaf0\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+91            android:exported="false"
+91-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\de8a406716a798437b04686e5adfaaf0\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+92            android:initOrder="100" />
+92-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\de8a406716a798437b04686e5adfaaf0\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+93
+94        <meta-data
+94-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\7a6aa9b1213ea3346f552cbbf61ba38b\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+95            android:name="com.google.android.gms.version"
+95-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\7a6aa9b1213ea3346f552cbbf61ba38b\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+96            android:value="@integer/google_play_services_version" />
+96-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\7a6aa9b1213ea3346f552cbbf61ba38b\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+97
+98        <provider
+98-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\45b422ee2dfcd350d56aa2b99bd704aa\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+99            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\45b422ee2dfcd350d56aa2b99bd704aa\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+100            android:authorities="com.example.acrigooo.lifecycle-process"
+100-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\45b422ee2dfcd350d56aa2b99bd704aa\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+101            android:exported="false"
+101-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\45b422ee2dfcd350d56aa2b99bd704aa\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+102            android:multiprocess="true" />
+102-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\45b422ee2dfcd350d56aa2b99bd704aa\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+103    </application>
+104
+105</manifest>
