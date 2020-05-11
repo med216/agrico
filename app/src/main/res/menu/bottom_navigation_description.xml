@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_description_desc"
+        android:icon="@drawable/ic_description_black_24dp"
+        android:title="description" />
+
+    <item
+        android:id="@+id/nav_consulter_desc"
+        android:icon="@drawable/ic_check_circle_black_24dp"
+        android:title="consulter" />
+
+</menu>

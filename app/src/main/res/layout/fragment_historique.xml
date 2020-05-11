@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plante3"
+    >
+
+    <TextView
+        android:layout_width="600dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:background="@drawable/shape_rect04"
+        android:layout_marginBottom="416dp"
+        android:text="Please enter the QR bar code to connect your app with your sensor "
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:fontFamily="@font/roboto_regular"
+      tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="108dp"
+
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="340dp"
+        android:background="@drawable/roundrect"
+        android:text="Scan Bar code"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+
+
+        android:layout_width="500dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="108dp"
+android:background="@drawable/shape_rect04"
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="200dp"
+        android:text=" Activate auto system to command your plant automatically"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:fontFamily="@font/roboto_regular"
+        />
+    <Switch
+        android:id="@+id/sss"
+
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="108dp"
+
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/roundrect"
+        android:text="                Auto system"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+
+</RelativeLayout>

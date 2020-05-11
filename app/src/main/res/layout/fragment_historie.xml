@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/round_rectangle"
+            android:padding="10dp">
+
+
+                <LinearLayout
+                    android:id="@+id/lll"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/shape_rect03"
+                    android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tabhum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape_rect04"
+                            android:gravity="center"
+                            android:text="Humidity"
+                            android:textColor="@color/black"
+
+                            android:fontFamily="sans-serif-black"
+
+                            >
+
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tabtemp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Temperature"
+                            android:textColor="@color/white"
+
+                            android:fontFamily="sans-serif-black"
+
+                            >
+
+
+                        </TextView>
+
+                </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rl1"
+            android:id="@+id/rlhum"
+            >
+                <EditText
+                    android:id="@+id/searchFilter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/et_style"
+                    android:drawableStart="@drawable/ic_search_black_24dp"
+                    android:layout_toStartOf="@+id/calendrier"
+                    android:inputType="number"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="Search "
+                    android:padding="10dp"
+                    android:drawablePadding="10dp"
+
+
+                    />
+                <ImageButton
+                    android:id="@+id/calendrier"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/ic_view_agenda_black_24dp"
+
+
+
+                    />
+
+                <ListView
+                    android:id="@+id/list1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/calendrier"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="2"
+                    android:divider="@null"
+                    android:dividerHeight="40dp"
+                    android:fontFamily="@font/indigo_daisy"
+
+
+
+                    />
+
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rl1"
+            android:id="@+id/rltemp">
+
+                <EditText
+                    android:id="@+id/searchFilter1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:drawableStart="@drawable/ic_search_black_24dp"
+                    android:layout_toStartOf="@+id/calendrier1"
+                    android:inputType="number"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="Search "
+                    android:padding="10dp"
+                    android:drawablePadding="10dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/et_style"
+
+
+                    />
+                <ImageButton
+                    android:id="@+id/calendrier1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/ic_view_agenda_black_24dp"
+
+
+
+                    />
+
+                <ListView
+                    android:id="@+id/list11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/calendrier1"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="2"
+                    android:divider="@null"
+                    android:dividerHeight="70dp"
+                    android:fontFamily="@font/indigo_daisy"
+
+
+
+                    />
+
+        </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="#ffff"
+    app:contentPadding="3dp">
+    <LinearLayout
+        android:id="@+id/coloritem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7ab73d"
+        android:orientation="horizontal">
+
+        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/planteimage"
+            android:src="@drawable/ic_launcher_background"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/plantname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="plant name"
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="plant description"
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/maxtemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="6sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/mintemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="6sp"
+                android:textColor="@color/black"/> <TextView
+            android:id="@+id/maxhum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="6sp"
+            android:textColor="@color/black"/>
+
+            <TextView
+            android:id="@+id/minhum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="6sp"
+            android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/QR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="6sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

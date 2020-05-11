@@ -1,0 +1,5 @@
+<root>
+    <item name='kotlin.jvm.internal.DefaultConstructorMarker'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>
